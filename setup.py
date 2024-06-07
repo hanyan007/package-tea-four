@@ -13,13 +13,13 @@ with open("README.rst", "r") as f:
 
 
 setup(name='package-tea-four',  # 包名
-      version='1.0.0',  # 版本号
-      description='a small package just example',
+      version='1.0.1',  # 版本号
+      description='test package for pypi',
       long_description=long_description,
       author='hanyan_news',
       author_email='hanyan0572@gmail.com',
       url='https://github.com/hanyan007/package-tea-four.git',
-      install_requires=["package-tea-three==1.0.0"],
+      install_requires=["package-tea-three==1.0.1","dnspod-domain-log==1.0.2","package-tea-six==1.0.0"],
       project_urls={  # Optional
         "Source": 'https://github.com/hanyan007/package-tea-four.git',
       },
